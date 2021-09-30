@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/checkr/goflagr"
+	"github.com/openflagr/goflagr"
 )
 
 func TestEvalContext(t *testing.T) {

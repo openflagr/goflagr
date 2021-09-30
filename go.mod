@@ -1,4 +1,4 @@
-module github.com/checkr/goflagr
+module github.com/openflagr/goflagr
 
 go 1.15
 
