@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.9
-    working_directory: /go/src/github.com/checkr/goflagr
+    working_directory: /go/src/github.com/openflagr/goflagr
     steps:
       - checkout
       - run: go get -v -t -d ./...
